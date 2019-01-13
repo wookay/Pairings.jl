@@ -1,0 +1,11 @@
+authors = ["WooKyoung Noh <wookay.noh@gmail.com>"]
+name = "Pairings"
+uuid = "1542df30-1728-11e9-13ed-91e8fcaff8d6"
+version = "0.1.0"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+Jive = "ba5e3d4b-8524-549f-bc71-e76ad9e9deed"
+
+[targets]
+test = ["Test", "Jive"]
